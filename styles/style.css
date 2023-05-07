@@ -78,11 +78,33 @@ body main section.about-me div.description {
 body main section.about-me div.description h2 {
   font-size: 2rem;
 }
-body main section.about-me div.progress-area p {
-  margin: 0.5rem 0;
+body main section.about-me div.swiper {
+  width: 70vw;
+  height: 60vh;
+  margin-top: 5vh;
 }
-body main section.about-me div.progress-area div.progress-bar-area {
-  margin-top: 2rem;
+body main section.about-me div.swiper div.swiper-wrapper div.swiper-slide {
+  padding: 0 5vw;
+}
+body main section.about-me div.swiper div.swiper-wrapper div.swiper-slide a {
+  display: flex;
+  justify-content: center;
+}
+body main section.about-me div.swiper div.swiper-wrapper div.swiper-slide img {
+  max-width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center top;
+     object-position: center top;
+}
+body main section.about-me div.swiper div.swiper-scrollbar {
+  color: rgb(219, 84, 84);
+}
+body main section.about-me div.swiper div.swiper-button-next {
+  color: rgb(219, 84, 84);
+}
+body main section.about-me div.swiper div.swiper-button-prev {
+  color: rgb(219, 84, 84);
 }
 body main section.resume {
   display: flex;
@@ -101,7 +123,7 @@ body main section.resume section.table table tr {
   transition: all 0.2s ease;
 }
 body main section.resume section.table table tr:hover {
-  background-color: rgb(255, 212, 210);
+  background-color: rgba(255, 212, 210, 0.5);
 }
 body main section.resume section.table table tr td {
   padding: 1rem;

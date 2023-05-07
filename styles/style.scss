@@ -90,14 +90,35 @@ body {
           font-size: 2rem;
         }
       }
-      div.progress-area {
-        // border: 2px solid red;
-        p {
-          margin: 0.5rem 0;
-        }
+      div.swiper {
+        width: 70vw;
+        height: 60vh;
+        margin-top: 5vh;
 
-        div.progress-bar-area {
-          margin-top: 2rem;
+        div.swiper-wrapper {
+          div.swiper-slide {
+            padding: 0 5vw;
+
+            a {
+              display: flex;
+              justify-content: center;
+            }
+
+            img {
+              max-width: 100%;
+              object-fit: cover;
+              object-position: center top;
+            }
+          }
+        }
+        div.swiper-scrollbar {
+          color: rgb(219, 84, 84);
+        }
+        div.swiper-button-next {
+          color: rgb(219, 84, 84);
+        }
+        div.swiper-button-prev {
+          color: rgb(219, 84, 84);
         }
       }
     }
@@ -118,7 +139,7 @@ body {
             border-bottom: 2px solid gray;
             transition: all 0.2s ease;
             &:hover {
-              background-color: rgb(255, 212, 210);
+              background-color: rgba(255, 212, 210, 0.5);
             }
 
             td {
