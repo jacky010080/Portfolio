@@ -13,10 +13,9 @@
   <link rel="stylesheet" href="./styles/bubbles.css">
 </head>
 <body>
-  <!-- 導覽列 -->
   <nav>
     <ul>
-      <li><a href="#">聯絡方式</a></li>
+      <li><a href="#footer">聯絡方式</a></li>
       <li>
         <div class="dropdown">
           <button class="btn btn-danger btn-sm dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
@@ -61,7 +60,6 @@
       <div class="bubble x10"></div>
     </div>
 
-    <!-- 簡短敘述&背景照片 -->
     <section class="main-area">
       <div class="info">
         <h1>嗨，我是陳彥融</h1>
@@ -71,7 +69,6 @@
       </div>
       <img src="./images/紅背景照片.png" alt="個人照片">
     </section>
-    <!-- 自介＆技能 -->
     <section class="about-me">
       <div class="description">
         <h2>作品展示</h2>
@@ -119,7 +116,6 @@
         <div class="swiper-scrollbar"></div>
       </div>
     </section>
-    <!-- 資訊表格&個人照片 -->
     <section class="resume">
       <section class="table">
         <table>
@@ -182,6 +178,59 @@
       </section>
     </section>
   </main>
+  <footer id="footer">
+    <div class="col-md-2 mt-md-0 mt-4 px-0">
+      <ul class="list-unstyled text-white mb-1 d-flex flex-column align-items-md-start align-items-center">
+        <li class="mb-2">聯絡Jacky</li>
+        <li class="mb-2">
+          <a href="mailto:jacky010080@gmail.com" class="d-flex align-items-center text-light">
+            <img src="./ICONS/email.png" alt="email" class="me-2" style="max-height: 15px;">
+            jacky010080@gmail.com
+          </a>
+        </li>
+        <li class="mb-2">
+          <a href="tel:(02) 1234-5678" class="d-flex align-items-center text-light">
+            <img src="./ICONS/phone.png" alt="phone" class="me-2" style="max-height: 15px;">
+            (02) 1234-5678
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="social col-md-4 px-0">
+      <div class="d-flex flex-column justify-content-between align-items-md-end align-items-center text-white">
+        <ul class="d-flex list-unstyled mb-0 mt-md-0 mt-4 flex-wrap">
+          <li>
+            <a href="#" class="mx-2">
+              <img
+                src="./ICONS/fb.png"
+                alt="facebook"
+                class="rounded-circle"
+              >
+            </a>
+          </li>
+          <li>
+            <a href="#" class="text-white mx-2">
+              <img
+                src="./ICONS/linkedin.svg"
+                alt="linkedlin"
+                class="rounded-circle"
+              >
+            </a>
+          </li>
+          <li>
+            <a href="#" class="text-white mx-2">
+              <img
+                src="./ICONS/ig.png"
+                alt="instagram"
+                class="rounded-circle"
+              >
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
   <script src="app.js"></script>

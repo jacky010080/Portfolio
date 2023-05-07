@@ -162,6 +162,21 @@ body main section.resume section.picture div.redRect3 {
   left: -100px;
   z-index: -1;
 }
+body footer {
+  background-color: rgb(245, 123, 102);
+  height: 20vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+body footer a {
+  text-decoration: none;
+}
+body footer div.social img {
+  background-color: white;
+  border: 5px solid white;
+  height: 45px;
+}
 
 @media screen and (max-width: 800px) {
   body main section.main-area {
