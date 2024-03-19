@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
 export default function useScrollProgress() {
-  const [completion, setComplition] = useState(0);
+  const [completion, setCompletion] = useState(0);
 
   useEffect(() => {
     const updateScrollCompletion = () => {
@@ -9,7 +9,7 @@ export default function useScrollProgress() {
       const scrollHeight = document.body.scrollHeight - window.innerHeight;
 
       if (scrollHeight) {
-        setComplition(Number(currentProgress / scrollHeight).toFixed(2) * 100);
+        setCompletion(Number(currentProgress / scrollHeight).toFixed(2) * 100);
       }
     }
 
