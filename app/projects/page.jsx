@@ -24,7 +24,7 @@ const projectData = [
     image: "/work/CanChu.png",
     category: "next js",
     name: "CanChu",
-    description: "A social media website for people to communicat each other.",
+    description: "A social media website for people to communicate each other.",
     link: "/",
     github: "/",
   },
@@ -37,12 +37,12 @@ const projectData = [
     github: "https://github.com/jacky010080/what_to_play",
   },
   { 
-    image: "/work/WhatToPlay.png",
-    category: "react js",
-    name: "Weather",
-    description: "It is a weather forecast website",
-    link: "/",
-    github: "/",
+    image: "/work/WoWoRoom.png",
+    category: "javascript",
+    name: "WoWoRoom",
+    description: "An e-commerce website specializing in selling furniture.",
+    link: "https://jacky010080.github.io/WoWoRoom/front/",
+    github: "https://github.com/jacky010080/WoWoRoom",
   },
 ];
 
