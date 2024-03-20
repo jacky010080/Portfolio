@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Button } from "@/components/ui/button";
+import { Button, buttonVariants } from "@/components/ui/button";
 import { Download, Send } from "lucide-react";
 import { RiBriefcase4Fill, RiTeamFill, RiTodoFill, RiArrowDownSLine } from "react-icons/ri";
 
@@ -24,9 +24,9 @@ export default function Hero() {
                   Contact me <Send size={18} />
                 </Button>
               </Link>
-              <Button variant="secondary" className="gap-x-2">
+              <a className={`${buttonVariants({ variant: "secondary" })} gap-x-2`} href='/CYJ_CV.pdf' download>
                 Download CV <Download size={18} />
-              </Button>
+              </a>
             </div>
             <Socials 
               containerStyles="flex gap-x-6 mx-auto xl:mx-0"
