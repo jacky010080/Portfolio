@@ -18,7 +18,7 @@ const projectData = [
     name: "DaoDin",
     description: "A platform for organizing group activities and making friends.",
     link: "/",
-    github: "/",
+    github: "https://github.com/jacky010080/DaoDin",
   },
   { 
     image: "/work/CanChu.png",
@@ -26,7 +26,7 @@ const projectData = [
     name: "CanChu",
     description: "A social media website for people to communicate each other.",
     link: "/",
-    github: "/",
+    github: "https://github.com/jacky010080/CanChu",
   },
   { 
     image: "/work/WhatToPlay.png",
